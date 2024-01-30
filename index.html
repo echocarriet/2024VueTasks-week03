@@ -89,14 +89,14 @@
                       <div class="mb-3">
                         <label for="originPrice" class="form-label">原價</label>
                         <input type="number" class="form-control" id="originPrice" min="0" placeholder="請輸入原價"
-                          v-model="product.origin_price">
+                          v-model.price="product.origin_price">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="mb-3">
                         <label for="price" class="form-label">售價</label>
                         <input type="number" class="form-control" id="price" min="0" placeholder="請輸入售價"
-                          v-model="product.price">
+                          v-model.price="product.price">
                       </div>
                     </div>
                   </div>
